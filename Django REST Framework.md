@@ -33,7 +33,7 @@ This README file provides comprehensive instructions for setting up a Django pro
 
 1. **Create a New App for API:**
     ```bash
-    py manage.py startapp api
+    py manage.py startapp enroll
     ```
 
 ## Database Migrations
