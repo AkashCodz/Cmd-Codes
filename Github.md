@@ -1,61 +1,57 @@
-# My Awesome Project
-
-Welcome to My Awesome Project! This repository contains some cool stuff that I'm working on.
+# Github Commands
 
 ## Getting Started
 
-To get started with this project, follow these steps:
+To get started with this repository, follow these steps:
 
-1. Clone the repository to your local machine:
-
-    ```
-    git clone <repository_url>
-    ```
-
-2. Navigate to the project directory:
+1. Initialize a Git repository:
 
     ```
-    cd my-awesome-project
+    git init
     ```
 
-3. Install dependencies (if any):
+2. Create a README.md file and add some content (if required) / [optional]:
 
     ```
-    npm install
+    echo "# shiny-octo-meme" >> README.md
     ```
 
-## Usage
-
-Here are some common Git commands you might need:
-
-- **git add**: Add file contents to the index:
+3. Add all files to the staging area:
 
     ```
-    git add <file_name>
+    git add .
     ```
 
-- **git commit**: Record changes to the repository:
+4. Commit the changes:
 
     ```
-    git commit -m "Commit message"
+    git commit -m "first commit"
     ```
 
-- **git push**: Update remote refs along with associated objects:
+5. Set up the remote origin:
 
     ```
-    git push <remote_name> <branch_name>
+    git remote add origin https://github.com/Codz/proj_name.git
     ```
 
-- **git pull**: Fetch from and integrate with another repository or a local branch:
+6. Rename the default branch to main:
 
     ```
-    git pull <remote_name> <branch_name>
+    git branch -M main
     ```
 
-## Contributing
+7. Push the changes to the remote repository:
 
-Contributions are welcome! Please read the [CONTRIBUTING.md](CONTRIBUTING.md) file for details on how to contribute to this project.
+    ```
+    git push -u origin main
+    ```
 
-## License
+## After doing all these and push new
+    
+    ```
+    git add .
+    git commit -m "Second commit"
+    git push
+    ```
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
