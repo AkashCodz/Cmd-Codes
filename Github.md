@@ -53,5 +53,8 @@ To get started with this repository, follow these steps:
     git commit -m "Second commit"
     git push
     ```
+    ```
+    git push -u origin main
+    ```
 
 
