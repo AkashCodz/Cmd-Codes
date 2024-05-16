@@ -47,7 +47,6 @@ To get started with this repository, follow these steps:
     ```
 
 ## After doing all these and push new
-    
 
     git add .
     git commit -m "Second commit"
